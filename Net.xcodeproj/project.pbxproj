@@ -1,0 +1,395 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7E4B6CED15CBB1EB0056C1B5 /* BIDNoticeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E4B6CEB15CBB1EB0056C1B5 /* BIDNoticeViewController.m */; };
+		7E7186E315DB86F6008904CF /* BIDXisuoNoticeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E7186E215DB86F6008904CF /* BIDXisuoNoticeViewController.m */; };
+		7EB6D21615CD2C4500C489CC /* TFHpple.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EB6D21115CD2C4500C489CC /* TFHpple.m */; };
+		7EB6D21715CD2C4500C489CC /* TFHppleElement.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EB6D21315CD2C4500C489CC /* TFHppleElement.m */; };
+		7EB6D21815CD2C4500C489CC /* XPathQuery.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EB6D21515CD2C4500C489CC /* XPathQuery.m */; };
+		7EB6D21C15CD3F2900C489CC /* libxml2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 7EB6D21B15CD3F2900C489CC /* libxml2.dylib */; };
+		7EC8A99715D8F3AE006B634B /* newsViewTabBar.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7EC8A99615D8F3AD006B634B /* newsViewTabBar.xib */; };
+		7ED24A9915D0085600005E16 /* cut.html in Resources */ = {isa = PBXBuildFile; fileRef = 7ED24A9815D0085600005E16 /* cut.html */; };
+		7ED73CBF15D2ACCF00D65DFD /* detail.html in Resources */ = {isa = PBXBuildFile; fileRef = 7ED73CBE15D2ACCF00D65DFD /* detail.html */; };
+		7EDDA19715CE6FB4001C8C8C /* logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 7EDDA19615CE6FB4001C8C8C /* logo.png */; };
+		7EDDA19C15CE893C001C8C8C /* BIDDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EDDA19A15CE893C001C8C8C /* BIDDetailViewController.m */; };
+		7EDDA19D15CE893C001C8C8C /* BIDDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7EDDA19B15CE893C001C8C8C /* BIDDetailViewController.xib */; };
+		7EDEEFC415CC244600990EF5 /* BIDNewsCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EDEEFC315CC244600990EF5 /* BIDNewsCell.m */; };
+		7EDEEFCB15CC24BE00990EF5 /* Empty.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7EDEEFCA15CC24BE00990EF5 /* Empty.xib */; };
+		7EDEEFCD15CC2D8300990EF5 /* bbcc_023.png in Resources */ = {isa = PBXBuildFile; fileRef = 7EDEEFCC15CC2D8300990EF5 /* bbcc_023.png */; };
+		7EE2DC7A15C6C0F6006B4F06 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7EE2DC7915C6C0F6006B4F06 /* UIKit.framework */; };
+		7EE2DC7C15C6C0F6006B4F06 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7EE2DC7B15C6C0F6006B4F06 /* Foundation.framework */; };
+		7EE2DC7E15C6C0F6006B4F06 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7EE2DC7D15C6C0F6006B4F06 /* CoreGraphics.framework */; };
+		7EE2DC8015C6C0F6006B4F06 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7EE2DC7F15C6C0F6006B4F06 /* CoreData.framework */; };
+		7EE2DC8615C6C0F6006B4F06 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7EE2DC8415C6C0F6006B4F06 /* InfoPlist.strings */; };
+		7EE2DC8815C6C0F6006B4F06 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EE2DC8715C6C0F6006B4F06 /* main.m */; };
+		7EE2DC8C15C6C0F6006B4F06 /* BIDAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EE2DC8B15C6C0F6006B4F06 /* BIDAppDelegate.m */; };
+		7EE2DC8F15C6C0F6006B4F06 /* Net.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 7EE2DC8D15C6C0F6006B4F06 /* Net.xcdatamodeld */; };
+		7EE2DC9815C6C1CC006B4F06 /* BIDViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EE2DC9615C6C1CC006B4F06 /* BIDViewController.m */; };
+		7EE2DC9915C6C1CC006B4F06 /* BIDViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7EE2DC9715C6C1CC006B4F06 /* BIDViewController.xib */; };
+		7EE2DCA115C6C502006B4F06 /* BIDSecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EE2DC9F15C6C502006B4F06 /* BIDSecondViewController.m */; };
+		7EE2DCA215C6C502006B4F06 /* BIDSecondViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7EE2DCA015C6C502006B4F06 /* BIDSecondViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		7E4B6CEA15CBB1EB0056C1B5 /* BIDNoticeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BIDNoticeViewController.h; sourceTree = "<group>"; };
+		7E4B6CEB15CBB1EB0056C1B5 /* BIDNoticeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BIDNoticeViewController.m; sourceTree = "<group>"; };
+		7E7186E115DB86F6008904CF /* BIDXisuoNoticeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BIDXisuoNoticeViewController.h; sourceTree = "<group>"; };
+		7E7186E215DB86F6008904CF /* BIDXisuoNoticeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BIDXisuoNoticeViewController.m; sourceTree = "<group>"; };
+		7EB6D21015CD2C4500C489CC /* TFHpple.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TFHpple.h; sourceTree = "<group>"; };
+		7EB6D21115CD2C4500C489CC /* TFHpple.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TFHpple.m; sourceTree = "<group>"; };
+		7EB6D21215CD2C4500C489CC /* TFHppleElement.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TFHppleElement.h; sourceTree = "<group>"; };
+		7EB6D21315CD2C4500C489CC /* TFHppleElement.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TFHppleElement.m; sourceTree = "<group>"; };
+		7EB6D21415CD2C4500C489CC /* XPathQuery.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XPathQuery.h; sourceTree = "<group>"; };
+		7EB6D21515CD2C4500C489CC /* XPathQuery.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XPathQuery.m; sourceTree = "<group>"; };
+		7EB6D21B15CD3F2900C489CC /* libxml2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libxml2.dylib; path = usr/lib/libxml2.dylib; sourceTree = SDKROOT; };
+		7EC8A99615D8F3AD006B634B /* newsViewTabBar.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = newsViewTabBar.xib; sourceTree = "<group>"; };
+		7ED24A9815D0085600005E16 /* cut.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = cut.html; sourceTree = "<group>"; };
+		7ED73CBE15D2ACCF00D65DFD /* detail.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = detail.html; sourceTree = "<group>"; };
+		7EDDA19615CE6FB4001C8C8C /* logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo.png; sourceTree = "<group>"; };
+		7EDDA19915CE893C001C8C8C /* BIDDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BIDDetailViewController.h; sourceTree = "<group>"; };
+		7EDDA19A15CE893C001C8C8C /* BIDDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BIDDetailViewController.m; sourceTree = "<group>"; };
+		7EDDA19B15CE893C001C8C8C /* BIDDetailViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BIDDetailViewController.xib; sourceTree = "<group>"; };
+		7EDEEFC215CC244600990EF5 /* BIDNewsCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BIDNewsCell.h; sourceTree = "<group>"; };
+		7EDEEFC315CC244600990EF5 /* BIDNewsCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BIDNewsCell.m; sourceTree = "<group>"; };
+		7EDEEFCA15CC24BE00990EF5 /* Empty.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Empty.xib; sourceTree = "<group>"; };
+		7EDEEFCC15CC2D8300990EF5 /* bbcc_023.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bbcc_023.png; sourceTree = "<group>"; };
+		7EE2DC7515C6C0F6006B4F06 /* Net.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Net.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7EE2DC7915C6C0F6006B4F06 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		7EE2DC7B15C6C0F6006B4F06 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		7EE2DC7D15C6C0F6006B4F06 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		7EE2DC7F15C6C0F6006B4F06 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		7EE2DC8315C6C0F6006B4F06 /* Net-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Net-Info.plist"; sourceTree = "<group>"; };
+		7EE2DC8515C6C0F6006B4F06 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		7EE2DC8715C6C0F6006B4F06 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		7EE2DC8915C6C0F6006B4F06 /* Net-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Net-Prefix.pch"; sourceTree = "<group>"; };
+		7EE2DC8A15C6C0F6006B4F06 /* BIDAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BIDAppDelegate.h; sourceTree = "<group>"; };
+		7EE2DC8B15C6C0F6006B4F06 /* BIDAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BIDAppDelegate.m; sourceTree = "<group>"; };
+		7EE2DC8E15C6C0F6006B4F06 /* Net.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Net.xcdatamodel; sourceTree = "<group>"; };
+		7EE2DC9515C6C1CC006B4F06 /* BIDViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BIDViewController.h; sourceTree = "<group>"; };
+		7EE2DC9615C6C1CC006B4F06 /* BIDViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BIDViewController.m; sourceTree = "<group>"; };
+		7EE2DC9715C6C1CC006B4F06 /* BIDViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BIDViewController.xib; sourceTree = "<group>"; };
+		7EE2DC9E15C6C502006B4F06 /* BIDSecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BIDSecondViewController.h; sourceTree = "<group>"; };
+		7EE2DC9F15C6C502006B4F06 /* BIDSecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BIDSecondViewController.m; sourceTree = "<group>"; };
+		7EE2DCA015C6C502006B4F06 /* BIDSecondViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BIDSecondViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7EE2DC7215C6C0F6006B4F06 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7EB6D21C15CD3F2900C489CC /* libxml2.dylib in Frameworks */,
+				7EE2DC7A15C6C0F6006B4F06 /* UIKit.framework in Frameworks */,
+				7EE2DC7C15C6C0F6006B4F06 /* Foundation.framework in Frameworks */,
+				7EE2DC7E15C6C0F6006B4F06 /* CoreGraphics.framework in Frameworks */,
+				7EE2DC8015C6C0F6006B4F06 /* CoreData.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7EB6D20F15CD2C4500C489CC /* hpple */ = {
+			isa = PBXGroup;
+			children = (
+				7EB6D21015CD2C4500C489CC /* TFHpple.h */,
+				7EB6D21115CD2C4500C489CC /* TFHpple.m */,
+				7EB6D21215CD2C4500C489CC /* TFHppleElement.h */,
+				7EB6D21315CD2C4500C489CC /* TFHppleElement.m */,
+				7EB6D21415CD2C4500C489CC /* XPathQuery.h */,
+				7EB6D21515CD2C4500C489CC /* XPathQuery.m */,
+			);
+			path = hpple;
+			sourceTree = "<group>";
+		};
+		7EE2DC6A15C6C0F6006B4F06 = {
+			isa = PBXGroup;
+			children = (
+				7EB6D20F15CD2C4500C489CC /* hpple */,
+				7EE2DC8115C6C0F6006B4F06 /* Net */,
+				7EE2DC7815C6C0F6006B4F06 /* Frameworks */,
+				7EE2DC7615C6C0F6006B4F06 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7EE2DC7615C6C0F6006B4F06 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7EE2DC7515C6C0F6006B4F06 /* Net.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7EE2DC7815C6C0F6006B4F06 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7EB6D21B15CD3F2900C489CC /* libxml2.dylib */,
+				7EE2DC7915C6C0F6006B4F06 /* UIKit.framework */,
+				7EE2DC7B15C6C0F6006B4F06 /* Foundation.framework */,
+				7EE2DC7D15C6C0F6006B4F06 /* CoreGraphics.framework */,
+				7EE2DC7F15C6C0F6006B4F06 /* CoreData.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7EE2DC8115C6C0F6006B4F06 /* Net */ = {
+			isa = PBXGroup;
+			children = (
+				7EE2DC8A15C6C0F6006B4F06 /* BIDAppDelegate.h */,
+				7EE2DC8B15C6C0F6006B4F06 /* BIDAppDelegate.m */,
+				7EE2DC9515C6C1CC006B4F06 /* BIDViewController.h */,
+				7EE2DC9615C6C1CC006B4F06 /* BIDViewController.m */,
+				7EE2DC9715C6C1CC006B4F06 /* BIDViewController.xib */,
+				7EE2DC9E15C6C502006B4F06 /* BIDSecondViewController.h */,
+				7EE2DC9F15C6C502006B4F06 /* BIDSecondViewController.m */,
+				7EE2DCA015C6C502006B4F06 /* BIDSecondViewController.xib */,
+				7E4B6CEA15CBB1EB0056C1B5 /* BIDNoticeViewController.h */,
+				7E4B6CEB15CBB1EB0056C1B5 /* BIDNoticeViewController.m */,
+				7E7186E115DB86F6008904CF /* BIDXisuoNoticeViewController.h */,
+				7E7186E215DB86F6008904CF /* BIDXisuoNoticeViewController.m */,
+				7EC8A99615D8F3AD006B634B /* newsViewTabBar.xib */,
+				7EDDA19915CE893C001C8C8C /* BIDDetailViewController.h */,
+				7EDDA19A15CE893C001C8C8C /* BIDDetailViewController.m */,
+				7ED73CBE15D2ACCF00D65DFD /* detail.html */,
+				7ED24A9815D0085600005E16 /* cut.html */,
+				7EDDA19B15CE893C001C8C8C /* BIDDetailViewController.xib */,
+				7EDEEFC215CC244600990EF5 /* BIDNewsCell.h */,
+				7EDEEFC315CC244600990EF5 /* BIDNewsCell.m */,
+				7EDEEFCA15CC24BE00990EF5 /* Empty.xib */,
+				7EDDA19615CE6FB4001C8C8C /* logo.png */,
+				7EDEEFCC15CC2D8300990EF5 /* bbcc_023.png */,
+				7EE2DC8D15C6C0F6006B4F06 /* Net.xcdatamodeld */,
+				7EE2DC8215C6C0F6006B4F06 /* Supporting Files */,
+			);
+			path = Net;
+			sourceTree = "<group>";
+		};
+		7EE2DC8215C6C0F6006B4F06 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7EE2DC8315C6C0F6006B4F06 /* Net-Info.plist */,
+				7EE2DC8415C6C0F6006B4F06 /* InfoPlist.strings */,
+				7EE2DC8715C6C0F6006B4F06 /* main.m */,
+				7EE2DC8915C6C0F6006B4F06 /* Net-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7EE2DC7415C6C0F6006B4F06 /* Net */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7EE2DC9215C6C0F6006B4F06 /* Build configuration list for PBXNativeTarget "Net" */;
+			buildPhases = (
+				7EE2DC7115C6C0F6006B4F06 /* Sources */,
+				7EE2DC7215C6C0F6006B4F06 /* Frameworks */,
+				7EE2DC7315C6C0F6006B4F06 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Net;
+			productName = Net;
+			productReference = 7EE2DC7515C6C0F6006B4F06 /* Net.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7EE2DC6C15C6C0F6006B4F06 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = BID;
+				LastUpgradeCheck = 0430;
+				ORGANIZATIONNAME = "hfut ios开发组";
+			};
+			buildConfigurationList = 7EE2DC6F15C6C0F6006B4F06 /* Build configuration list for PBXProject "Net" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7EE2DC6A15C6C0F6006B4F06;
+			productRefGroup = 7EE2DC7615C6C0F6006B4F06 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7EE2DC7415C6C0F6006B4F06 /* Net */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7EE2DC7315C6C0F6006B4F06 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7EE2DC8615C6C0F6006B4F06 /* InfoPlist.strings in Resources */,
+				7EE2DC9915C6C1CC006B4F06 /* BIDViewController.xib in Resources */,
+				7EE2DCA215C6C502006B4F06 /* BIDSecondViewController.xib in Resources */,
+				7EDEEFCB15CC24BE00990EF5 /* Empty.xib in Resources */,
+				7EDEEFCD15CC2D8300990EF5 /* bbcc_023.png in Resources */,
+				7EDDA19715CE6FB4001C8C8C /* logo.png in Resources */,
+				7EDDA19D15CE893C001C8C8C /* BIDDetailViewController.xib in Resources */,
+				7ED24A9915D0085600005E16 /* cut.html in Resources */,
+				7ED73CBF15D2ACCF00D65DFD /* detail.html in Resources */,
+				7EC8A99715D8F3AE006B634B /* newsViewTabBar.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7EE2DC7115C6C0F6006B4F06 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7EE2DC8815C6C0F6006B4F06 /* main.m in Sources */,
+				7EE2DC8C15C6C0F6006B4F06 /* BIDAppDelegate.m in Sources */,
+				7EE2DC8F15C6C0F6006B4F06 /* Net.xcdatamodeld in Sources */,
+				7EE2DC9815C6C1CC006B4F06 /* BIDViewController.m in Sources */,
+				7EE2DCA115C6C502006B4F06 /* BIDSecondViewController.m in Sources */,
+				7E4B6CED15CBB1EB0056C1B5 /* BIDNoticeViewController.m in Sources */,
+				7EDEEFC415CC244600990EF5 /* BIDNewsCell.m in Sources */,
+				7EB6D21615CD2C4500C489CC /* TFHpple.m in Sources */,
+				7EB6D21715CD2C4500C489CC /* TFHppleElement.m in Sources */,
+				7EB6D21815CD2C4500C489CC /* XPathQuery.m in Sources */,
+				7EDDA19C15CE893C001C8C8C /* BIDDetailViewController.m in Sources */,
+				7E7186E315DB86F6008904CF /* BIDXisuoNoticeViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		7EE2DC8415C6C0F6006B4F06 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7EE2DC8515C6C0F6006B4F06 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7EE2DC9015C6C0F6006B4F06 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		7EE2DC9115C6C0F6006B4F06 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7EE2DC9315C6C0F6006B4F06 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Net/Net-Prefix.pch";
+				HEADER_SEARCH_PATHS = "${SDKROOT}/usr/include/libxml2/**";
+				INFOPLIST_FILE = "Net/Net-Info.plist";
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				USER_HEADER_SEARCH_PATHS = "${SDK_DIR}/usr/include/libxml2/**";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		7EE2DC9415C6C0F6006B4F06 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Net/Net-Prefix.pch";
+				HEADER_SEARCH_PATHS = "${SDKROOT}/usr/include/libxml2/**";
+				INFOPLIST_FILE = "Net/Net-Info.plist";
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				USER_HEADER_SEARCH_PATHS = "${SDK_DIR}/usr/include/libxml2/**";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7EE2DC6F15C6C0F6006B4F06 /* Build configuration list for PBXProject "Net" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7EE2DC9015C6C0F6006B4F06 /* Debug */,
+				7EE2DC9115C6C0F6006B4F06 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7EE2DC9215C6C0F6006B4F06 /* Build configuration list for PBXNativeTarget "Net" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7EE2DC9315C6C0F6006B4F06 /* Debug */,
+				7EE2DC9415C6C0F6006B4F06 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		7EE2DC8D15C6C0F6006B4F06 /* Net.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				7EE2DC8E15C6C0F6006B4F06 /* Net.xcdatamodel */,
+			);
+			currentVersion = 7EE2DC8E15C6C0F6006B4F06 /* Net.xcdatamodel */;
+			path = Net.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 7EE2DC6C15C6C0F6006B4F06 /* Project object */;
+}
